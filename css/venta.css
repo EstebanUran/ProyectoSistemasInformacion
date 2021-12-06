@@ -1,0 +1,65 @@
+.text-venta{
+    display: flex;
+    justify-content: space-around;
+}
+.text{
+    width: 400px;
+    display: inline;
+}
+.text p{
+    margin-top: 15px;
+}
+.venta{
+    border: solid 1px #000;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    height: 100%;
+}
+h4{
+    
+    display: block;
+    text-align: center;
+}
+.titulo{
+    width: 100%;
+}
+table{
+    margin-top: 20px;
+}
+.boton{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.boton button{
+    border: solid 1px;
+    background-color: #1f8fc3;
+    color: #fff;
+    width: 200px;
+    height: 30px;
+    border-radius: 4px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.tabla{
+    padding: 5px;
+}
+.buttons{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.buttons button{
+    width: 200px;
+    margin-bottom: 20px;
+    background-color: #1f8fc3;
+    color: #fff;
+    border: solid 1px;
+    border-radius: 4px;
+    height: 30px;
+    cursor: pointer;
+}
